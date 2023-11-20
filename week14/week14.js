@@ -72,11 +72,8 @@ console.log(filterEvenNumbers());
 let randomNumbers = [72, 45, 19, 84, 37, 56, 91, 23, 68, 10, 98, 32];
 function sortAndPrint() {
     let randomNumbersCopy = [...randomNumbers];
-    console.log(randomNumbersCopy);
-
-    
     randomNumbersCopy.sort();
-    console.log(randomNumbersCopy);
+    return randomNumbersCopy;
 }
 console.log(sortAndPrint());
 
