@@ -76,8 +76,3 @@ function sortAndPrint() {
     return randomNumbersCopy;
 }
 console.log(sortAndPrint());
-
-
-
-
-
